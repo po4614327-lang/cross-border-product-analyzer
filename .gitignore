@@ -1,0 +1,48 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# ---------- 虚拟环境 ----------
+venv/
+env/
+.venv/
+ENV/
+
+# ---------- 敏感信息 / 密钥 ----------
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+*token*
+*api_key*
+*apikey*
+
+# ---------- 运行产物与日志 ----------
+*.log
+logs/
+*.tmp
+*.bak
+*.xlsx
+!docs/**/*.xlsx
+
+# ---------- IDE / 编辑器 ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- 系统杂项 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
